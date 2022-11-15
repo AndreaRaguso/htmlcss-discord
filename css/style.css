@@ -65,10 +65,11 @@ nav{
 
 .list-nav li a{
     text-decoration: none;
-    padding: 10px;
-    font-weight: 600;
+    padding: 15px;
+    font-weight: bold;
     color: white;
-    font-size: 18px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .logo{
@@ -97,6 +98,8 @@ nav{
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 20px;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 4px;
 }
 
 .text-header p{
@@ -187,9 +190,11 @@ nav{
 /* SQUARE */
 
 .square-text h1{
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 15px;
     color: rgb(46, 45, 45);
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 2px;
 }
 
 .square-text p{
@@ -198,24 +203,31 @@ nav{
 }
 
 .square-text-big h1{
-    font-size: 50px;
-    margin-bottom: 10px;
-    text-align: center;
-    width: 70%;
-    margin: 0 15%;
-}
-.square-text-footer h1{
-    font-size: 50px;
-    margin-bottom: 30px;
-    color: #5865f2;
-}
-
-.square-text-big h2{
     font-size: 30px;
     margin-bottom: 10px;
     text-align: center;
     width: 70%;
     margin: 0 15%;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 3px;
+}
+.square-text-footer h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #5865f2;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 3px;
+}
+
+.square-text-big h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 70%;
+    margin: 0 15%;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 2px;
+    font-weight: 100;
 }
 
 .square-text-big p{
@@ -295,6 +307,7 @@ nav{
     list-style: none;
     color: white;
     line-height: 30px;
+    font-size: 16px;
 }
 
 .list-footer ul li:first-child{
