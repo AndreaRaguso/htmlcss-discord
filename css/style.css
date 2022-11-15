@@ -189,10 +189,12 @@ nav{
 .square-text h1{
     font-size: 50px;
     margin-bottom: 15px;
+    color: rgb(46, 45, 45);
 }
 
 .square-text p{
     font-size: 20px;
+    color: rgb(46, 45, 45);
 }
 
 .square-text-big h1{
@@ -300,6 +302,12 @@ nav{
     font-weight: bold;
     font-size: 18px;
 }
+
+.list-footer ul li:first-child:hover{
+    text-decoration: none;
+    cursor: auto;
+}
+
 
 .list-footer ul li:hover{
     text-decoration: underline;
