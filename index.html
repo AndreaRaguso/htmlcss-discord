@@ -10,42 +10,43 @@
         <link rel="shortcut icon" href="./img/discord-logo.ico" type="image/x-icon">
     </head>
     <body>
-
-        <!-- Inizo Header -->
-        <header class="flex-container">
-
-            <!-- Barra di navigazione -->
-            <nav class="container">
-
-                <!-- Image Logo -->
-                <div class="logo ">
-                    <i class="fa-brands fa-discord"></i>
-                    <strong>Discord</strong>
-                </div>
-
-                <!-- List navbar link -->
-                <div class="link ">
-                    <ul class="list-nav flex-container">
-                        <li><a href="#">Scarica</a></li>
-                        <li><a href="#">Nitro</a></li>
-                        <li><a href="#">Scopri</a></li>
-                        <li><a href="#">Sicurezza</a></li>
-                        <li><a href="#">Assistenza</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Lavora con noi</a></li>
+        
+        <div class="bg">
+            <!-- Inizo Header -->
+            <header class="flex-container">
+                
+                <!-- Barra di navigazione -->
+                <nav class="container">
+                    
+                    <!-- Image Logo -->
+                    <div class="logo ">
+                        <i class="fa-brands fa-discord"></i>
+                        <strong>Discord</strong>
+                    </div>
+                    
+                    <!-- List navbar link -->
+                    <div class="link ">
+                        <ul class="list-nav flex-container">
+                            <li><a href="#">Scarica</a></li>
+                            <li><a href="#">Nitro</a></li>
+                            <li><a href="#">Scopri</a></li>
+                            <li><a href="#">Sicurezza</a></li>
+                            <li><a href="#">Assistenza</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Lavora con noi</a></li>
                     </ul>
                 </div>
-
+                
                 <!-- Login Button -->
                 <div class="login ">
                     <div class="buttons btn-login">Accedi</div>
                 </div>
-
-            <!-- Fine barra di navigazione -->
+                
+                <!-- Fine barra di navigazione -->
             </nav>
         </header>
         <!-- Fine Header -->
-
+        
         <!-- Main big -->
         <div class="flex-container bg-blue">
             <div class="text-header">
@@ -60,12 +61,13 @@
                 </div>
             </div>
         </div>
-
+    </div>
+        
         <!-- Square 1 -->
 
         <div class="square">
             <div class="flex-container container">
-                <div class="bg-cyan "></div>
+                <div class="bg-cyan item1"></div>
                 <div class="square-text bg-light">
                     <h1>Crea uno spazio su invito in cui sentirti partecipe</h1>
                     <p>I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o semplicemente parlare della tua giornata senza intasare una chat di gruppo.</p>
@@ -74,20 +76,22 @@
         </div>
 
         <!-- Square 2 -->
-        <div class="flex-container bg-lightgray square pattern">
-            <div class="flex-container container row">
-                <div class="bg-cyan "></div>
-                <div class="square-text bg-light ">
-                    <h1>Dove trovarsi è facile</h1>
-                    <p>Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che sei lì e unirsi istantaneamente senza dover chiamare.</p>
+        <section class="pattern">
+            <div class="flex-container bg-lightgray square">
+                <div class="flex-container container row">
+                    <div class="bg-cyan item2"></div>
+                    <div class="square-text bg-light ">
+                        <h1>Dove trovarsi è facile</h1>
+                        <p>Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che sei lì e unirsi istantaneamente senza dover chiamare.</p>
+                    </div>
                 </div>
-            </div>
-        </div>        
+            </div>        
+        </section>
 
         <!-- Square 3 -->
         <div class="square"> 
             <div class="flex-container container">
-                <div class="bg-cyan "></div>
+                <div class="bg-cyan item3"></div>
                 <div class="square-text bg-light ">
                     <h1>Da pochi a un fandom</h1>
                     <p>Dai inizio a una community con strumenti di moderazione e accesso ai membri personalizzabile. Concedi ai membri poteri speciali, crea canali privati e molto altro.</p>
@@ -99,11 +103,15 @@
         <div class="bg-lightgray">
             <div class="flex-container container" >
                 <div class="square-text-big bg-green">
-                    <h1>TECNOLOGIA AFFIDABILE PER TENERSI IN CONTATTO</h1>
-                    <p>Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.</p>
                     <div class="flex">
+                        <h1>TECNOLOGIA AFFIDABILE PER TENERSI IN CONTATTO</h1>
+                        <p>Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.</p>
+                        <img src="./img/item4-big.svg" alt="">
                         <h2>Pronto a iniziare la tua avventura?</h2>
-                        <button class="buttons btn-down2">Scarica per Windows</button>
+                        <button class="buttons btn-down2">
+                            <i class="fa-solid fa-arrow-down-long"></i>
+                            Scarica per Windows
+                        </button>
                     </div>
                 </div>
             </div>
