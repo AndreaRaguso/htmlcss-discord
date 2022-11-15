@@ -278,7 +278,7 @@ nav{
 
 .sq-pink{
     width: 60%;
-    height: 400px;
+    height: 350px;
 }
 
 
@@ -330,7 +330,6 @@ nav{
 .column{
     margin-bottom: 20px;
     padding-top: 60px;
-    height: 400px;
 }
 
 .hr-color{
@@ -339,7 +338,7 @@ nav{
 
 
 .bg-gray{
-    background-color: rgb(61, 59, 59);
+    background-color: rgb(37, 36, 36);
 }
 
 .buttons-f{
