@@ -1,0 +1,392 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* GENERALI */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    width: 100%;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+/* HEADER */
+
+.bg{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 700px;
+}
+
+header{
+    min-height: 70px;
+    display: flex;
+    padding-top: 20px;
+}
+
+nav{
+    display: flex;
+}
+
+.link{
+    flex-grow: 1;
+}
+
+.list-nav{
+    list-style: none;
+    align-content: space-around; 
+}
+
+.list-nav li:hover{
+    text-decoration: underline;
+}
+
+.list-nav li a{
+    text-decoration: none;
+    padding: 15px;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+    color: white;
+    font-size: 25px;
+}
+
+.logo,.login{
+    width: 15%;
+    padding: 10px 5px;
+}
+
+.login{
+    display: flex;
+    justify-content: end;
+    text-align: center;
+}
+
+.text-header{
+    text-align: center;
+    width: 50%;
+    color: white;
+}
+
+.text-header h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 4px;
+}
+
+.text-header p{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+
+
+
+/* BUTTONS */
+
+.buttons{
+    border-radius: 20px;
+    padding: 15px 20px;
+    border: 0;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.btn-down{
+    background-color: white;
+    font-size: 18px;
+}
+
+.btn-down2{
+    background-color: #5865f2;
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+}
+
+.btn-reg{
+    color: white;
+    background-color: #5865f2;
+    padding: 10px 20px;
+}
+
+.btn-open{
+    background-color: rgb(48, 48, 48);
+    font-size: 18px;
+    color: white;
+}
+
+.btn-login{
+    background-color: white;
+    padding: 10px 20px;
+}
+
+
+.bg-blue{
+    height: 400px;
+    align-items: center;
+    padding-top: 10%;
+}
+
+
+
+
+/* WAVE EFFECT */
+
+/*.circle{
+    width: 500px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+} 
+
+.pattern {
+    position: relative;
+}
+
+.pattern::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background: url(https://media.geeksforgeeks.org/wp-content/uploads/20200326181026/wave3.png);
+    background-size: cover;
+    background-repeat: no-repeat;   
+} 
+
+.pattern::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background: url(https://media.geeksforgeeks.org/wp-content/uploads/20200326181026/wave3.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    transform: rotate(180deg); 
+}*/ 
+
+/* .pattern{
+    background-image: url(../img/wave.svg);
+    background-size: cover;
+    background-color: rgb(240, 240, 240);
+    height: 600px;
+} */
+
+/* SQUARE */
+
+.square-text h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: rgb(46, 45, 45);
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 2px;
+}
+
+.square-text p{
+    font-size: 20px;
+    color: rgb(46, 45, 45);
+}
+
+.square-text-big h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 70%;
+    margin: 0 15%;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 3px;
+}
+.square-text-footer h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #5865f2;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 3px;
+}
+
+.square-text-big h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 70%;
+    margin: 0 15%;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.square-text-big p{
+    font-size: 20px;
+    width: 80%;
+    margin: 0 10%;
+    text-align: center;
+}
+
+.bg-cyan{
+    height: 400px;
+    width: 60%;
+}
+
+.item1{
+    background-image: url(../img/item1.svg);
+    background-repeat: no-repeat;
+}
+
+.item2{
+    background-image: url(../img/item2.svg);
+    background-repeat: no-repeat;
+}
+
+.item3{
+    background-image: url(../img/item3.svg);
+    background-repeat: no-repeat;
+}
+
+.bg-light{
+    width: 30%;
+    margin: 10px;
+}
+
+.square{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.row{
+    flex-direction: row-reverse;
+}
+
+.bg-green{
+    width: 100%;
+    height: 600px;
+}
+
+.sq-pink{
+    width: 60%;
+    height: 350px;
+}
+
+
+.bg-lightgreen{
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.bg-lightgray{
+    background-color: rgb(240, 240, 240);
+    padding: 60px;
+    height: 900px;
+    /* background-image: url(../img/wave.svg);
+    background-size: 100% 100px;
+    background-repeat: no-repeat; */
+}
+
+
+/* FOOTER */
+
+.list-footer{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+}
+
+.list-footer ul{
+    list-style: none;
+    color: white;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.list-footer ul li:first-child{
+    color: #5865f2 ;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.list-footer ul li:first-child:hover{
+    text-decoration: none;
+    cursor: auto;
+}
+
+
+.list-footer ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.column{
+    margin-bottom: 20px;
+    padding-top: 60px;
+}
+
+.hr-color{
+    border:1px solid #5865f2;
+}
+
+
+.bg-gray{
+    background-color: rgb(37, 36, 36);
+}
+
+.buttons-f{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.social{
+    color: white;
+    font-size: 25px;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.language{
+    color: white;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.language i{
+    font-size: 10px;
+}
+
+.language img{
+    height: 15px;
+    width: 22px;
+    border-radius: 3px;
+}
